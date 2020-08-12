@@ -1,0 +1,11 @@
+#EndPoint {
+    width: 70%;
+    height: 500px;
+    margin: 0 auto;
+    background-color: wheat;
+}
+#textBox {
+    width: 70%;
+    margin: 0 auto;
+    padding: 50px;
+}

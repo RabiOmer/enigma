@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    height: 100vh;
+    width: 80%;
+}
+
+#enigma {
+    display: subgrid;
+    height: 100vh;
+    width: 100%;
+    grid-template-rows: 1fr 2fr 3fr 4fr;
+    /* grid-template-columns: 1fr 4fr 1fr; */
+}
+
+
+#routers {
+    /* background-color: yellowgreen; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 100%;
+}
+
+#routers .router {
+    margin: auto;
+    text-align: center;
+    /* border-style: solid;
+    border-width: medium;
+    border-color: black; */
+
+}
+
+#routers .router .arrow {
+    width: 20px;
+    height: 20px;
+}
+
+#routers .router .courant_pos {
+    border: 2px white;
+    width: 20px;
+    height: 20px;
+
+}
+
+#routers .router .number_box {
+    text-align: center;
+    width: 20px;
+    height: 100%;
+    border-style: solid;
+    border-width: medium;
+    line-height: 22px;
+}
+
+
+#EndPoint {
+    background-color: pink;
+    padding: 20px;
+}
+
+#EndPoint #textBox {
+    height: 150px;
+    /* width: 100%; */
+    border-style: solid;
+    border-width: medium;
+}
+
+#EndPoint #textBox #textResult {
+    height: 90%;
+    width: 100%;
+    padding: 5px;
+    display: inline;
+    overflow-x: hidden;
+    line-break: auto;
+    overflow-y: scroll;
+    line-break: auto;
+    resize: none;
+}
+
+
+
+
+#keyBoard {
+    background-color: red;
+}
+
+#title {
+    text-align: center;
+}

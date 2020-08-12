@@ -1,0 +1,17 @@
+#routers {
+    width: 70%;
+    height: 150px;
+    margin: 0 auto;
+    background-color: black;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+#routers > div {
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    margin: 25px 20px;
+
+}
