@@ -1,0 +1,4 @@
+
+(()=>{
+    let enigma = new Enigma();
+})()
